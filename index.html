@@ -4,54 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JAV HD</title>
-    <style>
-        
-    </style>
+    <title>MY PORTFOLIO</title>
 </head>
+<body style="background-color: rgb(58, 58, 58); ">
+    <div id="head" style="background-color: rgb(29, 29, 29); border-radius: 25px;">
+    <h1 style="color: white; text-align: center; padding: 10px;">My Information</h1>
+    </div>
 
-<body id="body">
-<script>
-        function compute(){
-            const a = parseFloat(document.getElementById("num1").value);
-            const b = parseFloat(document.getElementById("num2").value);
-
-            let sum = a + b;
-            let sub = a - b;
-            let prod = a * b;
-            let quot = a / b;
-
-            let output = document.getElementById("output");
-            output.textContent  = "Sum = " + sum + "\nSub = " + sub + "\nProd = " + prod + "\nQuot = " + quot;
-        }
-
-        if(sum > 50){
-            output.style.color = "blue";
-        }else{
-            output.style.color = "red";
-        }
-        if(sub<50){
-            document.getElementById("img").src = "cat.jpg"
-        }else {
-            document.getElementById("img").src = "dog.jpg"
-        }
-        if(prod > 500){
-            document.getElementById("body").style.backgroundColor = "green";
-        }else{
-            document.getElementById("body").style.backgroundColor = "orange";
-        }
-    </script>
-        <br>
- 
-        <label for="num1">Enter Num 1:</label>
-        <input type = "number" id="num1"><br>
-        <label for="num2">Enter Num 2:</label>
-        <input type ="number" id="num2"><br>
-        <input type ="submit" onclick="compute()" name ="calc" value="Calculate">
-        <input type="image" id="img" alt="" src="">
-        <p id="output"> </p>
-    
-    
-    
+    <div class="Info" style="background-color: rgb(29, 29, 29); border-radius: 25px; text-align: center; color: white; padding: 10px;">
+        <p>Name: Kenn Carrido</p>
+        <p>Course: BS in Computer Science</p>
+        <p>Birthday: February 21, 2004</p>
+        <p>Address: Binangonan, Rizal</p>
+    </div>
 </body>
 </html>
